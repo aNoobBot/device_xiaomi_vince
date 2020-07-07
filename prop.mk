@@ -209,3 +209,7 @@ wifi.interface=wlan0
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.sys.wfd.virtual=10
 
+# processor model
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.processor.model = SD625
+
